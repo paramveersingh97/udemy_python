@@ -25,6 +25,7 @@ def get_password(panel):
         return 1234
     elif panel == "billing":
         return "super_secure_password"
+        
 @make_secure
 def get_dashboard_passowrd():
     return "user: user_password"
